@@ -75,8 +75,8 @@ function App(){
     <div>
         <Router>
 
-      {logIn ? 
-        (
+      {/* {logIn ?  */}
+        {/* ( */}
           <Routes>
               <Route path="/*" element={<LoginPage />} />
               <Route path="/Firstpage" element={<Firstpage />} />
@@ -87,7 +87,7 @@ function App(){
           </Routes>
           ) :
             null        
-          }
+          {/* } */}
         </Router>
       </div>
     )
