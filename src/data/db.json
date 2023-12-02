@@ -1,0 +1,97 @@
+{
+	"data": [
+		{
+			"task": "what is UI/UX Design",
+			"answered": "15",
+			"points": 20,
+			"_id": 1
+		},
+		{
+			"task": "principle of design",
+			"answered": "15",
+			"points": 10,
+			"_id": 2
+		},
+		{
+			"task": "interaction design",
+			"answered": "15",
+			"points": 20,
+			"_id": 3
+		},
+		{
+			"task": "user research",
+			"answered": "15",
+			"points": 50,
+			"_id": 4
+		},
+		{
+			"task": "prototype",
+			"answered": "15",
+			"points": 40,
+			"_id": 5
+		},
+		{
+			"task": "data analysis",
+			"answered": "15",
+			"points": 50,
+			"_id": 6
+		}
+	],
+	"courses": [
+		{
+			"title": "UI/UX Design",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 1
+		},
+		{
+			"title": "Backend Web Development",
+			"content": " backend Web Development you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 2
+		},
+		{
+			"title": "Frontend Web Development",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 3
+		},
+		{
+			"title": "Page Management",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 4
+		},
+		{
+			"title": "Advanced Cryptocurrency",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 5
+		},
+		{
+			"title": "Quantum Mechanics",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 6
+		},
+		{
+			"title": "Graphic Design",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 7
+		},
+		{
+			"title": "african health and herb methodology",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 8
+		},
+		{
+			"title": "true africa history",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 9
+		},
+		{
+			"title": "skin care production",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 10
+		},
+		{
+			"title": "deFi & nFTs",
+			"content": " you'll be taught by our experience and qualified teachers, and get update through our website, telegram page and newsletters.",
+			"_id": 11
+		}
+	]
+}

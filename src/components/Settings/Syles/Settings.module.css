@@ -1,0 +1,111 @@
+   .Settings{
+        padding: 20px;
+        overflow: hidden;
+    }
+
+   .Settings p{
+    color: #00000078;
+    text-transform: capitalize;
+    margin: 20px 0;
+   }
+
+   .Settings img{
+       width: 200px;
+   }
+   
+  .settingsUsername{
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+    }
+
+  .settingsUsername input{
+       width: 50%;
+       height: 30px;
+       padding: 20px ;
+       outline: none;
+   }
+
+  .settingsEmail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 0; 
+   }
+
+  .settingsEmail input{
+       width: 50%;
+       height: 30px;
+       padding: 20px ;       
+       outline: none;       
+   }
+
+   .settingsBtn{
+       display: flex;
+       gap: 170px !important;
+    }
+
+   .settingsBtn button:nth-of-type(1){
+        border: 1px solid #5852fe;
+        border-radius: 5px;
+        background: transparent;
+        padding: 15px 50px;
+        font-size: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .settingsBtn  button:nth-of-type(1):hover{
+        border: none;
+        border-radius: 5px;
+        background: #5852fe;
+        padding: 15px 50px;
+        font-size: 10px;
+        color: #fff;
+    }
+    
+
+    .settingsBtn button:nth-of-type(2){
+        border: none;
+        border-radius: 5px;
+        background: #5852fe;
+        padding: 15px 50px;
+        font-size: 10px;
+        color: #fff;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .settingsBtn  button:nth-of-type(2):hover{
+        border: 1px solid #5852fe;
+        border-radius: 5px;
+        background: transparent;
+        padding: 15px 50px;
+        font-size: 10px;
+        color: #000;
+    }    
+
+    @media screen and (max-width: 900px){
+
+        .Settings img{
+            width: 200px;
+            margin:30px;
+        }
+
+        .settingsBtn{
+            flex-direction: column;
+            gap: 30px !important;
+            
+        }
+        
+        .settingsBtn button:nth-of-type(1){
+                width: 50%;
+        }
+        
+        
+        .settingsBtn button:nth-of-type(2){
+            width: 50%;
+            margin: 0 !important;
+        }
+        .settingsUsername input, .settingsEmail input{
+            width: 100%;
+        }
+    }

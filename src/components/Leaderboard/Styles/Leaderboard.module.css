@@ -1,0 +1,69 @@
+.Leaderboard{
+    padding: 40px 10px;
+    overflow: hidden;
+}
+
+.board p{
+    color: #00000078;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+
+.LeaderboardContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #000;
+}
+
+.LeaderboardContent1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #000;    
+}
+
+
+@media screen and (max-width:600px){
+    .Leaderboard{
+        padding: 40px 0;
+    }
+
+    .board p{
+        font-size: 15px;
+    }
+    .LeaderboardContent{
+        padding: 20px 0;
+        font-size: 11px;
+    }
+    
+    .LeaderboardContent1{
+        padding: 20px 0;
+        font-size: 10px;
+    }
+}
+
+
+.LeaderboardContent1 div:nth-of-type(1){
+    flex: 4;
+}
+
+.LeaderboardContent1 div:nth-of-type(1) span:nth-child(2){
+    padding: 0 10px;
+}
+
+
+
+.LeaderboardContent1 div:nth-of-type(2){
+    flex: 4;
+}
+
+
+.LeaderboardContent1 div:nth-of-type(3){
+    padding: 0 20px ;  
+}
+
+.LeaderboardContent1:nth-of-type(8){
+    border-bottom: none;
+}

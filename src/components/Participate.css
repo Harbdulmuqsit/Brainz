@@ -1,0 +1,13 @@
+.participate{
+    padding: 5em 10em;
+    background: linear-gradient(#040D21, #241940) ;
+    color: #fff;
+    font-size: 2vmin;
+}
+
+
+.participate h2,h3{
+    color: #F3455C !important;
+    font-size: 3vmin;
+    padding: 1em 0;
+}

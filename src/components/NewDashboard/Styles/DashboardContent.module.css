@@ -1,0 +1,230 @@
+.DashboardContent{
+    overflow: hidden;
+}
+
+.DashboardContent .input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 50px 20px 0px;
+    gap: 30px;
+}
+
+.DashboardContent .input h1{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.DashboardContent .input div{
+    position: relative;
+    flex: 1;
+}
+
+
+.DashboardContent .input div input[ type ]{
+    width:100%;
+    padding: 15px 20px;
+    border-radius: 50px;
+    outline: none;
+}
+
+.DashboardContent .input div img{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px !important;
+}
+.DashboardContent .input  img{
+    width: 50px !important;
+    margin-bottom: 20px; 
+}
+
+.DashboardContent .input img{
+    width: 100px;
+}
+
+
+.user{
+    font-size: 30px;
+    padding: 10px;
+    margin-inline-end: 0px; 
+}
+
+.Earnings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+
+.Earnings div:nth-child(1){
+    background: #5852fe;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+.Earnings div:nth-child(2){
+    background: #34a853;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+.Earnings div:nth-child(3){
+    background: #f5761a;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+
+
+.Earnings div h2{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.EarningHistory{
+    display: flex;
+    border-bottom: 2px solid #000;
+    justify-content: space-between;
+}
+
+
+.EarningHistory div:nth-child(1){
+    flex: 3;
+}
+
+
+.EarningHistory div:nth-child(2){
+    flex:2;
+}
+
+
+.EarningHistory div:nth-child(3){
+    flex: 1;
+}
+
+.tasks{
+    display: flex;
+    justify-content: space-between;
+    padding:20px ;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.tasks div:nth-child(1){
+    flex: 4;
+    display: flex;
+    gap: 40px;
+}
+
+.tasks div:nth-child(2){
+    flex: 2;    
+}
+
+.tasks div:nth-child(3){
+    flex: 1;
+}
+
+.tasks:nth-of-type(8){
+    border-bottom: none !important;
+}
+
+
+@media screen and (max-width: 900px){
+    .user{
+        font-size: 20px; 
+        padding: 20px !important;
+    }
+    .Earnings div:nth-child(1),    .Earnings div:nth-child(2),    .Earnings div:nth-child(3){
+        width: 100%;
+        overflow: hidden;
+    }
+    .Earnings{
+        flex-direction: column !important;
+        row-gap: 30px !important;
+    }
+    .EarningHistory{
+        font-size: 10px !important;
+        overflow: hidden;
+    }
+    .tasks{
+        font-size: 10px !important;
+    }
+    .DashboardContent .input{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 10px !important;
+        gap: 20px;
+    }
+    
+    .DashboardContent .input h1{
+        font-size: 15px !important;
+        margin-top: 15px;
+    }
+
+    .DashboardContent .input div input[ type ]{
+        width: 100%;
+        border-radius: 15px !important; 
+    }
+
+        
+    .DashboardContent .input div img{
+        top: 5px;
+        right: 20px;
+        width: 20px !important;
+    }
+    .DashboardContent .input  img{
+        width: 30px !important;
+        margin-top: 10px ;
+    }
+
+    .EarningHistory div:nth-child(1){
+        flex: 2;
+    }
+    
+    
+    .EarningHistory div:nth-child(2){
+        flex:4;
+    }
+    
+    
+    .EarningHistory div:nth-child(3){
+        flex: 1;
+    }
+
+        
+    .tasks div:nth-child(1){
+        flex: 4;
+        display: flex;
+        gap: 8px;
+    }
+
+    .tasks div:nth-child(2){
+        flex: 4;
+    }
+
+    .tasks div:nth-child(3){
+        flex: 1;
+    }
+
+}

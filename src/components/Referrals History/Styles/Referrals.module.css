@@ -1,0 +1,51 @@
+.Referrals{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.Referrals p{
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.Referrals .ReferralList{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding: 30px 0;
+}
+
+.Referrals .ReferralNames{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding: 20px 0;
+}
+
+.Referrals .ReferralNames:nth-of-type(6){
+    border-bottom: none; 
+}
+
+
+
+.Referrals .ReferralNames div:nth-of-type(1){
+    display: flex;
+    gap:  30px ;
+    flex: 4;
+}
+
+
+.Referrals .ReferralNames div:nth-of-type(2){
+    flex: 4;
+}
+
+@media screen and (max-width: 700px){
+    .Referrals .ReferralList{
+        font-size: 13px;
+    }
+    .Referrals .ReferralNames{
+        font-size: 13px;
+    }
+    .Referrals .ReferralNames div:nth-of-type(1){
+        gap:  10px ;
+    }
+}

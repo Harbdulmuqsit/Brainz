@@ -1,0 +1,178 @@
+.signUp {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.signUp a {
+  text-decoration: none;
+}
+
+.signUp .site-name {
+  background: linear-gradient(#040d21, #241940);
+  padding: 10em 4em;
+}
+
+.signUp .site-name h1 {
+  color: #fff;
+  font-weight: 300 !important;
+  font-size: 5vmin;
+  padding-bottom: 20px;
+}
+
+.signUp .site-name h1::before {
+  content: "";
+  position: absolute;
+  left: 65px;
+  top: 200px;
+  background-color: #fff;
+  width: 2%;
+  height: 5px;
+  animation: siteAnimation 7s linear infinite;
+}
+
+@keyframes siteAnimation {
+  100% {
+    width: 20%;
+  }
+}
+
+.signUp .site-name p {
+  color: #fff;
+  font-size: 2vmin;
+}
+
+.signUp .site-name h2 {
+  font-size: 6vmin;
+  margin: 1em 0;
+  display: none;
+}
+
+.signUp .site-name .gift-brainz {
+  margin-top: 6em;
+  font-size: 6vmin;
+  display: block;
+}
+
+.signUp .site-name .red {
+  color: #ff0000;
+}
+
+.signUp .site-name .white {
+  color: #fff;
+}
+
+.signUp-details {
+  padding: 11em 2em;
+}
+
+.signUp-details h1 {
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.signUp-details input {
+  padding: 15px 25px;
+  margin-right: 1em;
+  outline: none;
+  border: 2px solid #e4e7e9;
+  border-radius: 8px;
+}
+
+/* .signUp-details .name input {
+  display: flex !important;
+} */
+
+.signUp-details .email input {
+  width: 89% !important;
+  margin: 50px 0;
+  outline: none;
+  border: 2px solid #e4e7e9;
+  border-radius: 8px;
+}
+
+.signUp-details .referral-code input {
+  width: 89% !important;
+  margin: 50px 0;
+}
+
+.signUp-details input::placeholder {
+  color: #e4e7e9;
+  margin: 1em;
+  font-size: 2vmin;
+}
+
+.signUp .signUp-checkbox input {
+  padding: 0;
+  margin: 0 !important;
+  /* width: 2%; */
+}
+.signUp .signUp-checkbox {
+  display: flex;
+  column-gap: 20px;
+}
+
+.signUp .signUp-checkbox p {
+  font-size: 2.4vmin;
+}
+
+.signUp .boton {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: 2em;
+}
+/* 
+.signUp .boton p {
+  font-size: 2vmin;
+  margin-top: 20px;
+} */
+
+.signUp .boton p p {
+  color: #000;
+}
+
+.signUp .boton .btn-boton {
+  padding: 10px 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(
+      102.55deg,
+      #ff55e4 33.97%,
+      rgba(43, 38, 255, 0.65) 127.75%
+    ),
+    -webkit-linear-gradient(0deg, #ffffff, #ffffff);
+  color: #fff;
+  font-size: 2vmin;
+
+  transition: 0.5s ease-in;
+}
+
+.signUp .boton button p {
+  color: #fff;
+}
+
+.signUp .boton button:hover {
+  transform: scale(0.9);
+}
+
+/* Phone View */
+@media screen and (max-width: 400px) {
+  .signUp .site-name h1::before {
+    top: 195px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .signUp {
+    grid-template-columns: auto;
+  }
+  .signUp .site-name h1::before {
+    top: 195px !important;
+  }
+
+  .signUp-details input {
+    margin-top: 1em;
+    /* width: 100%; */
+  }
+}

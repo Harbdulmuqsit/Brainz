@@ -1,0 +1,62 @@
+.payments{
+    padding: 20px;
+    overflow: hidden;
+}
+
+.payments p{
+    padding: 10px 0;
+    font-size: 12px
+}
+
+.payments .paymentButton{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+
+.payments .paymentButton button:nth-of-type(1){
+    border: 1px solid #5852fe;
+    border-radius: 5px;
+    background: transparent;
+    padding: 15px 50px;
+    font-size: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+.payments .paymentButton button:nth-of-type(1):hover{
+    background: #5852fe;
+    color: #fff;
+}
+
+.payments .paymentButton button:nth-of-type(2){
+    background: #5852fe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+.payments .paymentButton button:nth-of-type(2):hover{
+    border: 1px solid #5852fe;
+    background: transparent;
+    color: #000;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .payments .paymentButton{
+        flex-direction: column;
+    }
+
+    .payments .paymentButton button:nth-of-type(1), button:nth-of-type(2){
+        width: 50%;
+        font-size: 9px !important;        
+        margin: 0 auto ;
+    }
+    
+}

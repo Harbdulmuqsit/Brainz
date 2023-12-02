@@ -1,0 +1,223 @@
+.sidenav{
+    min-width: 300px !important;
+    border-right: 1px solid #000;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+    position: fixed;
+    z-index: 9;
+    width: 350px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    -scrollbar-width: none;
+    background-color: #fff;
+    transition: all 0.5s ease;
+}
+
+
+
+.sidenav:hover{
+    width: 350px !important;
+}
+
+
+.sidenav::-webkit-scrollbar{
+    display: none
+}
+
+.sidenavHide {
+    width: 100px !important; 
+    min-width: 0px !important;
+    transform: translateX(-10px);
+}
+
+.sidenav img{
+    width: 80px;
+    margin: 10px ;
+}
+
+.show{
+    width: 200px !important;
+}
+
+.sidenav .Dboard{
+    display: flex;
+    column-gap: 40px;
+    background: #0000ff;
+    height: 100px;
+    align-items: center;
+}
+
+ 
+.sidenav .Dboard P{
+    color: #fff;
+    font-size: 25px;
+    align-self: center;
+}
+
+.sidenav .QuizDboard, .LeaderDboard, .SpinDboard, .SkillDboard, .PaymentsDboard, .ReferralsDboard, .EarningsDboard {
+    background: #fff;
+    display: flex;
+    column-gap: 40px;
+}
+
+.sidenav .QuizDboard p,  .LeaderDboard p, .SpinDboard p, .SkillDboard p, .PaymentsDboard p, .ReferralsDboard p, .EarningsDboard p{
+    color: #000;
+    font-size: 25px;
+    align-self: center;
+}
+
+.sidenav .DboardBackground{
+    background: #0000ff;
+    padding: 10px 0;
+}
+
+.sidenav .SettingsDboard, .GetHelpDboard, .CommunityDboard{
+    display: flex;
+    column-gap: 40px;
+}
+
+.sidenav .SettingsDboard p, .GetHelpDboard p, .CommunityDboard p{
+    font-size: 25px;
+    align-self: center;
+    color: #fff; 
+}
+
+.dashboard {
+    width: calc(100% - 400px) !important;
+    margin-left: auto;
+    transition: all 0.5s ease;
+}
+
+
+.dashboardFull {
+    width: calc(100% - 150px) !important;
+}
+
+
+.sidenav:hover .dashboard {
+    width: calc(100% - 400px) !important;
+    width: 100%;
+    overflow-y: hidden;
+    max-height: 100vh;
+} 
+
+
+.logoCase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    padding-right: 50px;
+}
+
+ .logoCase img{
+    width: 100px;
+    margin: auto 0;
+ 
+}
+
+ .logoCase img:last-child{
+    width: 40px;
+    height: 30px;
+    margin: auto 0;
+ }
+
+
+   
+@media screen and (max-width: 600px){
+    
+    .sidenav{
+        display: none;
+    }
+
+    .dashboard{
+        width: 100% !important;
+        padding: 10px 50px !important;
+    }
+
+    .dashboardFull{
+        width: 100% !important;
+        padding: 10px 50px !important;
+    }
+
+}
+
+
+@media screen and (max-width:1000px){
+        .sidenav {
+            width: 50px !important;
+            min-width:100px !important;
+            transform: translateX(-10px);
+        }
+        
+        .sidenav:hover {
+            width: 50px !important;
+        }
+            
+        .dashboard {
+            width: 85% !important;
+        }
+}
+
+/* Phone View */
+
+.phoneView h3{
+    padding: 9px 20px;
+    font-size: 30px;
+}
+
+
+.phoneView .navbar{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    z-index: 20;
+    top: -50px;  
+    transition: all 0.3s ease-in-out !important;
+}
+
+  
+.phoneView   .active{
+    visibility: visible;
+    transition: all 1s ease-in-out !important;
+    top: 50px;  
+    opacity: 1;
+    position: static;
+    background: #000 !important;
+    color: #fff;
+    padding: 20px 0;    
+}
+
+
+.phoneView ul {
+    list-style-type: none;
+}
+
+.phoneView ul li .DboardPhone{
+    display: flex !important;
+    padding: 5px;
+    
+}
+
+.phoneView ul li .DboardPhone img{
+    width: 5%;
+    height: 5%;
+}
+
+.phoneView ul li .DboardPhone p{
+    padding: 0 10px;
+    font-size: 10px;
+    color: #fff !important;
+}
+
+@media screen and (min-width: 600px){
+    .phoneView{
+        display: none;
+    }
+}

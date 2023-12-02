@@ -1,0 +1,90 @@
+.SkillAcquisition{
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.SkillAcquisition .category, .tech, .history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+.SkillAcquisition .category p{
+    font-size: 13px;
+}
+.SkillAcquisition .category select, .category option{
+    border: none;
+}
+.SkillAcquisition .course1, .course2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SkillAcquisition .course1 img, .course2 img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.SkillBtn{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.SkillBtn button:nth-of-type(1){
+    border: 1px solid #5852fe;
+    border-radius: 5px;
+    background: transparent;
+    padding: 9px 15px;
+    font-size: 10px;
+    transition: all 0.7s ease-in-out;
+}
+.SkillBtn button:nth-of-type(1):hover{
+    background: #5852fe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.SkillBtn button:nth-of-type(2){
+    background: #5852fe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 9px 15px;
+    font-size: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+.SkillBtn button:nth-of-type(2):hover{
+    border: 1px solid #5852fe;
+    background: transparent;
+    color: #000;
+}
+
+@media screen and (max-width:900px){
+    .SkillAcquisition{
+        padding: 0;
+    }
+    .SkillAcquisition .category, .tech, .history{
+        flex-direction: column;
+        align-items: center;        
+        padding: 10px  0;
+        line-height: 30px;
+    }
+    .SkillAcquisition .category select, .category option{
+        display: none;
+    }
+    .SkillAcquisition .course1, .course2{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px  0;
+        
+    }
+    .SkillAcquisition .tech p, .history p{
+        display: none;
+    }
+}
