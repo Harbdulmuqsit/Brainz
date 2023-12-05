@@ -75,36 +75,14 @@ function App(){
     <div>
         <Router>
 
-      {/* {logIn ?  */}
-        {/* ( */}
           <Routes>
               <Route path="/*" element={<LoginPage />} />
               <Route path="/Firstpage" element={<Firstpage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignUp />} />
               <Route path='/dashboard' element={<Dashboard />} />
-
           </Routes>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-          ) :
-            null        
-=======
-          {/* ) :
-            null         */}
->>>>>>> b02e671 (First commit)
-          {/* } */}
-=======
-          ) :
-            null        
-          }
->>>>>>> da2339e (first commit)
-=======
-          {/* ) :
-            null         */}
-          {/* } */}
->>>>>>> 3464948 (first commit)
+
         </Router>
       </div>
     )
