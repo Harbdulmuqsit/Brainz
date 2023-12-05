@@ -75,8 +75,8 @@ function App(){
     <div>
         <Router>
 
-      {/* {logIn ?  */}
-        {/* ( */}
+      {logIn ? 
+        (
           <Routes>
               <Route path="/*" element={<LoginPage />} />
               <Route path="/Firstpage" element={<Firstpage />} />
@@ -86,6 +86,7 @@ function App(){
 
           </Routes>
 <<<<<<< HEAD
+<<<<<<< HEAD
           ) :
             null        
 =======
@@ -93,6 +94,11 @@ function App(){
             null         */}
 >>>>>>> b02e671 (First commit)
           {/* } */}
+=======
+          ) :
+            null        
+          }
+>>>>>>> da2339e (first commit)
         </Router>
       </div>
     )
